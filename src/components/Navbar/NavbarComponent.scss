@@ -20,6 +20,7 @@
 	}
 
 	.humburger {
+		cursor: pointer;
 		display: none;
 	}
 
@@ -123,6 +124,7 @@
 
 
 .close {
+	cursor: pointer;
 	display: none;
 }
 
@@ -199,13 +201,19 @@
 
 	.list_item {
 		display: none;
-		width: 400px;
+		width: 200px;
 		position: fixed !important;
 		top: 0px;
 		right: -500px;
 		background-color: gray;
 		transition: .5s;
 		z-index: 5;
+		padding-left: 40px !important;
+
+
+		.list_items {
+			width: 120px;
+		}
 	}
 
 	.list_item.show {
