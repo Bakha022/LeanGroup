@@ -1,4 +1,5 @@
 .navbar {
+	box-shadow: 0px 12px 16px -20px rgba(0,0,0,0.45);
 	padding: 13px 0;
 	.container {
 		width: 95%;
@@ -10,6 +11,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		gap: 54px;
 	}
 
 	.right {
@@ -86,10 +88,11 @@
 		background-color: white;
 		list-style-type: none;
 		position: absolute;
-		top: 31px;
+		top: 57px;
 		padding: 8px;
 		background: #FFFFFF;
 		border: 1px solid #00103D1F;
+		border-top: none;
 		width: 244px;
 		border-bottom-left-radius: 4px;
 		border-bottom-right-radius: 4px;
@@ -166,14 +169,17 @@
 	.container {
 		.list_items {
 			&_link {
-				font-size: 14px;
+				font-size: 12px;
 			}
 		}
 
 
+		.lang_first , .lang_second {
+			font-size: 12px;
+		}
+
 		.nested-ul {
 			width: 190px;
-	
 			li {		
 				a {
 				font-size: 12px;		

@@ -19,14 +19,16 @@ export default class NavbarComponent extends Component {
 			<nav className='navbar'>
 				<div className="container">
 					<div className="row">
-						<a href='#Продукция' className="logo">
-							<img src={logo} alt="logo" />
-						</a>
+						<div className="logo-content">
+							<a href='#Продукция' className="logo">
+								<img src={logo} alt="logo" />
+							</a>
+						</div>
 						<div className="right">
 							<ul className={`list_item ${this.state.show ? 'show' : ''}`}>
-							<div id='' className={`close ${this.state.show ? 'show' : ''}`}>
-								<IoMdCloseCircle onClick={() => this.setState({ show: false })} />
-							</div>
+								<div id='' className={`close ${this.state.show ? 'show' : ''}`}>
+									<IoMdCloseCircle onClick={() => this.setState({ show: false })} />
+								</div>
 								<li id='drop-down' className='list_items'>
 									<a className='list_items_link' href="#">Продукция</a>
 									<ul className="nested-ul">
