@@ -112,10 +112,14 @@
 
 
 @media (max-width: 591px){
+	.header .header-items {
+		height: 70vh;
+	}
 	.header .header-items .container .row .col-6 {
 		margin-top: 20px;
 	}
 
+	
 	.header .header-items .container .row .col-6 h3 {
 		font-size: 24px;
 	}
