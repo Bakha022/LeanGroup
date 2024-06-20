@@ -8,6 +8,7 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 
+		
 		.container {
 			width: 95%;
 			margin: 0 auto;
@@ -85,8 +86,31 @@
 }
 
 
+.button__bar li button {
+		padding: 2px;
+		background: none;
+		border-radius: 50%;
+		border:  1px solid #EF7C00;
+		font-size: 0;
+}
+
+.button__bar li button::before {
+	font-size: 0;
+}
 
 
+.button__bar  {
+	position: absolute;
+	left: 39px;
+	bottom: 40px;
+	display: flex !important;
+	gap: 20px;
+	list-style-type: none;
+}
+
+.button__bar li.slick-active button {
+	background-color: #EF7C00;
+}
 @media (max-width: 952px) {
 	.header-items {
 		padding-top: 10px;
@@ -102,11 +126,8 @@
 	.header .header-items .container .row  {
 		flex-direction: column;
 		align-items: baseline;
-	}
-
-
-	.header .header-items .container .row {
-		gap: 30px;
+		gap: 60px;
+		
 	}
 }
 
@@ -116,7 +137,7 @@
 		height: 70vh;
 	}
 	.header .header-items .container .row .col-6 {
-		margin-top: 20px;
+		margin-top: 50px;
 	}
 
 	
