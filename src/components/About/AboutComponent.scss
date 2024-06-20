@@ -1,0 +1,138 @@
+.about-section {
+	padding: 45px 0;
+
+	.container {
+		.about-title {
+			text-align: center;
+			//styleName: H1;
+			font-family: Montserrat;
+			font-size: 32px;
+			font-weight: 600;
+			line-height: 40px;
+			margin-bottom: 16px;
+			span {
+				color: #EF7C00;
+			}
+		}
+		.row {
+			justify-content: space-between;
+			gap: 30px;
+			align-items: start;
+
+			.right {
+				display: flex;
+				flex-direction: column;
+				gap: 16px;
+				width: 522px;
+
+				.about-subtitle {
+					//styleName: fontBody;
+					font-family: Montserrat;
+					font-size: 15px;
+					font-weight: 400;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1380px) {
+	.about-section .container .row iframe {
+			width: 450px;
+			height: 370px;
+		}
+
+		.about-section .container .row .right {
+			width: 400px;
+		}
+}
+
+
+@media (max-width: 1024px) {
+	.about-section .container .row iframe {
+			width: 400px;
+			height: 370px;
+		}
+
+		.about-section .container .row .right {
+			width: 300px;
+			gap: 10px;
+		}
+}
+
+
+@media (max-width: 915px) {
+	
+	.about-section .container .row iframe {
+			width: 350px;
+			height: 370px;
+		}
+
+		.about-section .container .row .right {
+			width: 300px;
+		}
+
+		.about-section .container .row .right  .about-subtitle {
+			font-size: 13px;
+		}
+}
+
+
+@media (max-width: 843px) {
+	.about-section .container .row {
+		justify-content: center;
+	}
+	.about-section .container .row iframe {
+			width: 552px;
+			height: 370px;
+		}
+
+		.about-section .container .row .right {
+			width: 552px;
+		}
+
+		.about-section .container .row .right  .about-subtitle {
+			font-size: 13px;
+		}
+
+		.about-subtitle {
+			text-align: center;
+		}
+}
+
+
+
+@media (max-width: 554px) {
+	.about-section .container .row iframe {
+			width: 450px;
+			height: 370px;
+		}
+
+		.about-section .container .row .right {
+			width: 450px;
+		}
+}
+
+
+@media (max-width: 455px) {
+	.about-section .container .row iframe {
+			width: 300px;
+			height: 300px;
+		}
+
+		.about-section .container .row .right {
+			width: 300px;
+		}
+}
+
+
+@media (max-width: 553px){
+	iframe {
+		width: 100%;
+	}
+
+	.about-subtitle {
+		text-align: center;
+	}
+}

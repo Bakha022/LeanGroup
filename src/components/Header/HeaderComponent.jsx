@@ -18,7 +18,7 @@ export default function HeaderComponent() {
 		speed: 2500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: true,
+		autoplay: false,
 		arrows: false,
 		dotsClass: 'button__bar'
 	}
