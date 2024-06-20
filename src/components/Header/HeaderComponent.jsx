@@ -15,11 +15,10 @@ export default function HeaderComponent() {
 	let settings = {
 		dots: true,
 		infinite: true,
-		speed: 1500,
+		speed: 2500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 2000,
 		arrows: false,
 		dotsClass: 'button__bar'
 	}
