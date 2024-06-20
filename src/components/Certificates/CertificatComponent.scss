@@ -1,0 +1,143 @@
+.certifacts-section {
+	margin-top: 40px;
+	padding: 48px 0;
+
+	.container  {
+		position: relative;
+		.certificat-title {
+			//styleName: H1;
+		font-family: Montserrat;
+		font-size: 32px;
+		font-weight: 600;
+		line-height: 40px;
+		text-align: center;
+		margin-bottom: 22px;
+		span {
+			color: #EF7C00;
+		}
+		}
+		.slider-container .certificat-item img {
+			width: 100%;
+			outline: none;
+		}
+
+		.button-slick-left,  .button-slick-right  {
+			cursor: pointer;
+			background: none !important;
+			outline: none;
+			border: none;
+			position: absolute;
+			font-size: 50px;
+			color: #BFC1C7;
+		}
+
+		.button-slick-left:hover {
+			color: #EF7C00;
+		}
+		.button-slick-right:hover {
+			color: #EF7C00;
+		}
+		.button-slick-left {
+			left: -100px;
+			top: 200px;
+		}
+		.button-slick-right {
+			top: 200px;
+			right: -100px;
+		}
+	}
+}
+
+.button__bar_2 li button {
+	padding: 4px;
+	background: none;
+	border-radius: 50%;
+	border:  1px solid #EF7C00;
+	font-size: 0;
+}
+
+.button__bar_2 li button::before {
+font-size: 0;
+}
+
+
+.button__bar_2  {
+	display: flex !important;
+	margin-top: 11px;
+	justify-content: center;
+	gap: 20px;
+	list-style-type: none;
+}
+
+.button__bar_2 li.slick-active button {
+background-color: #EF7C00;
+}
+
+
+@media (max-width: 1132px) {
+	.certifacts-section .container .button-slick-left,  .certifacts-section .container .button-slick-right {
+		top: 160px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.certifacts-section .container .button-slick-left,  .certifacts-section .container .button-slick-right {
+		top: 250px;
+	}
+}
+
+
+@media (max-width: 951px) {
+	.certifacts-section .container .button-slick-left {
+		top: 240px;
+		left: -60px;
+	}
+
+	.certifacts-section .container .button-slick-right {
+		top: 240px;
+		right: -60px;
+	}
+
+}
+
+
+@media (max-width: 768px) {
+	.certifacts-section .container .button-slick-left {
+		top: 210px;
+		left: -60px;
+	}
+
+	.certifacts-section .container .button-slick-right {
+		top: 210px;
+		right: -60px;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.certifacts-section .container .button-slick-left {
+		top: 270px;
+		left: -50px;
+		font-size: 40px;
+	}
+
+	.certifacts-section .container .button-slick-right {
+		top: 270px;
+		right: -50px;
+		font-size: 40px;
+	}
+
+}
+
+@media (max-width: 450px) {
+	.certifacts-section .container .button-slick-left {
+		top: 380px;
+		left: -40px;
+	}
+
+	.certifacts-section .container .button-slick-right {
+		top: 380px;
+		right: -40px;
+	}
+
+}

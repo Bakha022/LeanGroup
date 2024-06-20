@@ -14,11 +14,11 @@ import './HeaderComponent.scss'
 export default function HeaderComponent() {
 	let settings = {
 		dots: true,
-		infinite: true,
-		speed: 2500,
+		infinite: false,
+		// speed: 1000,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		autoplay: false,
+		// autoplay: 80000,
 		arrows: false,
 		dotsClass: 'button__bar'
 	}

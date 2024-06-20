@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import AboutComponets from '../components/About/AboutComponets'
 import HeaderComponent from '../components/Header/HeaderComponent'
 import Navbar from "../components/Navbar/NavbarComponent"
+import CertificatComponent from '../components/Certificates/CertificatComponent'
 
 export default class HomePage extends Component {
 	render() {
@@ -10,9 +11,9 @@ export default class HomePage extends Component {
 			<section className='lean-group'>
 				<Navbar />
 				<HeaderComponent />
-				<AboutComponets />
 					<main>
-
+					<AboutComponets />
+					<CertificatComponent/>
 					</main>
 			</section>
 		)
