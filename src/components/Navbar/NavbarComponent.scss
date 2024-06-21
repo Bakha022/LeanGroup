@@ -88,8 +88,9 @@
 		background-color: white;
 		list-style-type: none;
 		position: absolute;
-		top: 57px;
+		top: 35px;
 		padding: 8px;
+		padding-top: 20px;
 		background: #FFFFFF;
 		border: 1px solid #00103D1F;
 		border-top: none;
@@ -179,7 +180,9 @@
 		}
 
 		.nested-ul {
-			width: 190px;
+			width: 160px;
+			padding: 8px;
+
 			li {		
 				a {
 				font-size: 12px;		

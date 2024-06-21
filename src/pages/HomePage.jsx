@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 
 import AboutComponets from '../components/About/AboutComponets'
+import CertificatComponent from '../components/Certificates/CertificatComponent'
 import HeaderComponent from '../components/Header/HeaderComponent'
 import Navbar from "../components/Navbar/NavbarComponent"
-import CertificatComponent from '../components/Certificates/CertificatComponent'
+import ProductComponent from '../components/Products/ProductComponent'
 
 export default class HomePage extends Component {
 	render() {
@@ -11,10 +12,11 @@ export default class HomePage extends Component {
 			<section className='lean-group'>
 				<Navbar />
 				<HeaderComponent />
-					<main>
+				<main>
 					<AboutComponets />
-					<CertificatComponent/>
-					</main>
+					<CertificatComponent />
+					<ProductComponent />
+				</main>
 			</section>
 		)
 	}

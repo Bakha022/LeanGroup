@@ -4,11 +4,11 @@ import React, { Component } from 'react'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io"
 import Slider from "react-slick"
 
-import img_1 from '../../assets/image/image_1.png'
-import img_2 from '../../assets/image/image_2.png'
-import img_3 from '../../assets/image/image_3.png'
-import img_4 from '../../assets/image/image_4.png'
-import img_5 from '../../assets/image/image_5.png'
+import img_1 from '../../assets/image/image_1.svg'
+import img_2 from '../../assets/image/image_2.svg'
+import img_3 from '../../assets/image/image_3.svg'
+import img_4 from '../../assets/image/image_4.svg'
+import img_5 from '../../assets/image/image_5.svg'
 
 import './CertificatComponent.scss'
 

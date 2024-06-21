@@ -1,0 +1,75 @@
+@import '../../styles/mixin.scss';
+
+
+.product-section {
+	padding: 40px 0;
+	.container{
+		.product-title {
+			@include section-titles;
+		}
+
+		.tabs{
+			margin-bottom: 32px;
+			.tab-list {
+				display: flex;
+				justify-content: center;
+				gap: 24px;
+				margin-bottom: 16px;
+	
+				.tab {
+					list-style-type: none;
+					border: 1px solid #00103D1F;
+					background-color: white;
+					border-radius: 61px;
+					padding: 12.5px 20px;
+					//styleName: fontFootnote;
+					font-family: Montserrat;
+					font-size: 13px;
+					font-weight: 500;
+					line-height: 13px;
+					text-align: center;
+					color: #EF7C00;
+					outline: none;
+					cursor: pointer;
+					transition: .3666s;
+				}
+	
+				.tab.react-tabs__tab--selected {
+					background-color: #EF7C00;
+					color: white;
+					border: none;
+					transition: .3666s;
+				}
+			}
+			.row {
+				display: flex;
+				// gap: 20px;
+				justify-content: space-between;
+			}
+		}
+
+		.product-btn {
+			display: flex;
+			justify-content: center;
+			 button {
+				@include section-btn
+			}
+		}
+	}
+}
+
+
+@media (max-width: 768px) {
+	.product-section .container .tabs .row {
+		justify-content: center;
+		gap: 30px;
+	}
+}
+
+
+@media (max-width: 463px) {
+	.product-section .container .tabs .tab-list .tab {
+		padding: 7px 10px;
+		font-size: 12px;
+	}
+}
