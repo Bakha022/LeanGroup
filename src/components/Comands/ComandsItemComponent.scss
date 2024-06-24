@@ -1,0 +1,53 @@
+.col-5 {
+	width: 203px;
+	.col-img {
+		width: 100%;
+		margin-bottom: 12px;
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	.comands-item-title {
+		//styleName: H4;
+		font-family: Montserrat;
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 20px;
+		text-align: center;
+		color: #2C2D2E;
+		margin-bottom: 4px;
+	}
+
+	.comands-item-subtitle {
+		//styleName: fontFootnote;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 13px;
+text-align: center;
+color: #919399;
+margin-bottom: 12px;
+	}
+
+	.comands-item-number {
+		//styleName: fontFootnote;
+		font-family: Montserrat;
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 19px;
+		text-align: center;
+				color: #2C2D2E;
+				margin-bottom: 8px;
+	}
+
+
+	.comands-item-gmail {
+		font-family: Montserrat;
+font-size: 13px;
+font-weight: 500;
+line-height: 13px;
+text-align: center;
+
+	}
+}

@@ -1,0 +1,25 @@
+@import '../../styles/mixin.scss';
+
+.comands-section {
+		.container{
+			.comands-title {
+				@include section-titles;
+			}
+
+			.comands-row-list {
+				padding: 40px 0;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				gap: 20px;
+			}
+		}
+}
+
+@media (max-width:520px) { 
+	.comands-section .container .comands-row-list {
+		justify-content: center;
+		gap: 30px;
+	}
+	
+}

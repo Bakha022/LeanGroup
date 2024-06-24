@@ -6,6 +6,7 @@ import HeaderComponent from '../components/Header/HeaderComponent'
 import Navbar from "../components/Navbar/NavbarComponent"
 import ProductComponent from '../components/Products/ProductComponent'
 import ContactComponent from '../components/Contact/ContactComponent'
+import ComandsComponent from '../components/Comands/ComandsComponent'
 
 export default class HomePage extends Component {
 	render() {
@@ -18,6 +19,7 @@ export default class HomePage extends Component {
 					<CertificatComponent />
 					<ProductComponent />
 					<ContactComponent/>
+					<ComandsComponent/>
 				</main>
 			</section>
 		)
