@@ -8,12 +8,15 @@ import ProductComponent from '../components/Products/ProductComponent'
 import ContactComponent from '../components/Contact/ContactComponent'
 import ComandsComponent from '../components/Comands/ComandsComponent'
 import InformationComponent from '../components/Information/InformationComponent'
+import BackToTop from '../components/BackToTop/BackToTop'
+import Footer from '../components/Footer/Footer'
 
 export default class HomePage extends Component {
 	render() {
 		return (
 			<section className='lean-group'>
 				<Navbar />
+				<BackToTop/>
 				<main>
 					<HeaderComponent />
 					<AboutComponets />
@@ -23,6 +26,7 @@ export default class HomePage extends Component {
 					<ComandsComponent/>
 					<InformationComponent/>
 				</main>
+				<Footer/>
 			</section>
 		)
 	}

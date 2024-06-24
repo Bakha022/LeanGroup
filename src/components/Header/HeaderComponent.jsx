@@ -1,13 +1,12 @@
 import React from "react"
-
-import { FaLinkedinIn } from "react-icons/fa"
-import { FaFacebookF } from "react-icons/fa6"
 import Slider from "react-slick"
 
 
+import { FaLinkedinIn } from "react-icons/fa"
+import { FaFacebookF } from "react-icons/fa6"
 import wk from '../../assets/image/vk.svg'
-import './HeaderComponent.scss'
 
+import './HeaderComponent.scss'
 
 
 
@@ -23,7 +22,7 @@ export default function HeaderComponent() {
 		dotsClass: 'button__bar'
 	}
 	return (
-		<section className='header'>
+		<section id='header' className='header'>
 			<Slider {...settings}>
 				<div className="header-items">
 					<div className="container">
