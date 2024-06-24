@@ -7,19 +7,21 @@ import Navbar from "../components/Navbar/NavbarComponent"
 import ProductComponent from '../components/Products/ProductComponent'
 import ContactComponent from '../components/Contact/ContactComponent'
 import ComandsComponent from '../components/Comands/ComandsComponent'
+import InformationComponent from '../components/Information/InformationComponent'
 
 export default class HomePage extends Component {
 	render() {
 		return (
 			<section className='lean-group'>
 				<Navbar />
-				<HeaderComponent />
 				<main>
+					<HeaderComponent />
 					<AboutComponets />
 					<CertificatComponent />
 					<ProductComponent />
 					<ContactComponent/>
 					<ComandsComponent/>
+					<InformationComponent/>
 				</main>
 			</section>
 		)

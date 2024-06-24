@@ -1,21 +1,23 @@
 @import '../../styles/mixin.scss';
 
-.comands-section {
-	margin-bottom: 20px;
+.information-section {
+		padding-top: 20px;
+		margin-bottom: 44px;
 		.container{
-			.comands-title {
+			.information-title {
 				@include section-titles;
 			}
 
-			.comands-row-list {
-				padding: 40px 0;
+			.information-row-list {
+				padding: 40px;
 				display: flex;
+				gap: 30px;
 				justify-content: space-between;
 				flex-wrap: wrap;
-				gap: 20px;
-				margin-bottom: 20px;
+				margin-bottom: 32px;
 			}
-			.comands-btn {
+
+			.info-btn {
 				display: flex;
 				justify-content: center;
 				button {
@@ -25,10 +27,9 @@
 		}
 }
 
-@media (max-width:520px) { 
-	.comands-section .container .comands-row-list {
+
+@media (max-width: 844px) {
+	.information-section .container .information-row-list {
 		justify-content: center;
-		gap: 30px;
 	}
-	
 }

@@ -13,10 +13,13 @@ export default class ComandsComponnent extends Component {
 			<div className='comands-section'>
 				<div className="container">
 					<h1 className='comands-title'>
-							Наша <span>команда</span>
+						Наша <span>команда</span>
 					</h1>
 					<div className="comands-row-list">
-						{comands.map(el => <ComandsItemComponent  img ={el.img} title={el.title}  subtitle ={el.subtitle} phoneNumber={el.phoneNumber} email={el.email} /> )}
+						{comands.map(el => <ComandsItemComponent img={el.img} title={el.title} subtitle={el.subtitle} phoneNumber={el.phoneNumber} email={el.email} />)}
+					</div>
+					<div className='comands-btn'>
+						<button >Наша команда</button>
 					</div>
 				</div>
 			</div>

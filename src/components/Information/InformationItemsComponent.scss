@@ -1,0 +1,56 @@
+.col-4:nth-child(1) {
+	width: 400px;
+	img {
+		width: 100%;
+	}
+}
+
+.col-4:nth-child(2) {
+	width: 319px;
+	img {
+		width: 100%;
+	}
+}
+
+.col-4:nth-child(3) {
+	width: 319px;
+	img {
+		width: 100%;
+	}
+}
+
+.col-4 {
+	.date {
+		margin-top: 24px;
+		//styleName: fontFootnote;
+		font-family: Montserrat;
+		font-size: 13px;
+		font-weight: 500;
+		line-height: 13px;
+		color: #919399;
+		margin-bottom: 8px;
+	}
+
+	.col-title {
+		//styleName: H3;
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #2C2D2E;
+	}
+
+}
+
+@media (max-width: 844px) {
+	.date, .col-title {
+		text-align: center;
+	}
+}
+
+
+
+@media (max-width: 516px) {
+
+}
+
