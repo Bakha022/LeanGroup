@@ -14,7 +14,6 @@ export default class NavbarComponent extends Component {
 	}
 
 	render() {
-		// console.log(this.state.show)
 		return (
 			<nav className='navbar'>
 				<div className="container">
